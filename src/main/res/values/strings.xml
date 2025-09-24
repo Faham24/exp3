@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Voice Assistant</string>
+
+    <!-- UI & General Messages -->
+    <string name="tap_to_speak">Tap to Speak</string>
+    <string name="listening">Listening…</string>
+    <string name="processing_image">Processing Image…</string>
+    <string name="processing_location">Getting Location…</string>
+    <string name="welcome_message">Welcome! Tap the button and say a command like, read this, where am I, or what\'s around me?</string>
+    <string name="command_help">You can say: \'Read this\', \'Where am I?\', \'What\'s around me?\', \'Identify currency\', or \'Analyze this object\'.</string>
+    <string name="permissions_required">All permissions are required for the app to function fully.</string>
+    <string name="permissions_grant">Please grant all required permissions for the app to work.</string>
+
+    <!-- Voice Recognition -->
+    <string name="listening_prompt">I\'m listening, go ahead.</string>
+    <string name="error_speech_recognition">Sorry, I didn\'t catch that. Please try again.</string>
+
+    <!-- OCR & Image Processing -->
+    <string name="camera_opening">Opening camera. Tap the screen to capture text.</string>
+    <string name="image_captured_processing">Image captured, now processing for text…</string>
+    <string name="image_submitted_wait">Image submitted. Please wait for results.</string>
+    <string name="no_text_found">I couldn\'t find any text in the image.</string>
+    <string name="text_found">Here\'s the text I found:</string>
+    <string name="error_image_processing">Sorry, I couldn\'t process the image. Please try again.</string>
+    <string name="error_image_processing_polling">Sorry, there was an issue getting results for the image.</string>
+    <string name="error_image_processing_timeout">Sorry, processing the image took too long.</string>
+    <string name="error_text_processing_failed">Sorry, the text processing failed on the server.</string>
+    <string name="error_image_processing_unknown">Sorry, an unknown error occurred while processing the image.</string>
+    <string name="error_text_processing">Sorry, I had trouble understanding the text results.</string>
+
+    <!-- Location & POI -->
+    <string name="getting_location_details">Getting your current location and nearby points of interest…</string>
+    <string name="location_prefix">You are currently near</string>
+    <string name="error_location">Sorry, I couldn\'t determine your current location.</string>
+    <string name="error_location_access">Location access failed. Please ensure location services are enabled.</string>
+
+    <!-- Scene Analysis Feature -->
+    <string name="scene_analysis_prompt">Opening camera to describe the scene. Tap to capture.</string>
+    <string name="analyzing_scene">Analyzing the scene. Please wait.</string>
+    <string name="analyzing_scene_button">Analyzing Scene…</string>
+    <string name="scene_analysis_success_intro">Here\'s what I see:</string>
+    <string name="scene_analysis_also_see">I also see:</string>
+    <string name="scene_analysis_no_description">I couldn\'t get a general description for the scene.</string>
+    <string name="scene_analysis_no_objects">And I didn\'t detect specific objects.</string>
+    <string name="error_scene_analysis">Sorry, I couldn\'t analyze the scene.</string>
+    <string name="error_scene_analysis_parsing">Sorry, I had trouble understanding the scene analysis results.</string>
+    <string name="error_scene_analysis_with_code">Sorry, I couldn\'t analyze the scene. Error code: %1$d</string>
+
+    <!-- Currency Recognition Feature -->
+    <string name="currency_recognition_prompt">Opening camera to identify currency. Place the note flat and tap to capture.</string>
+    <string name="identifying_currency_button">Identifying Currency…</string>
+    <string name="currency_detected">This appears to be a %1$s rupees note.</string>
+    <string name="currency_not_detected">I could not clearly identify the banknote. Please try again with good lighting and a flat note.</string>
+    <string name="error_currency_processing">Sorry, there was an error processing the image for currency.</string>
+    <string name="error_currency_processing_timeout">Sorry, identifying the currency took too long. Please try again.</string>
+
+    <!-- Smart Object Color & Text Identifier Feature -->
+    <string name="object_analysis_prompt">Opening camera to analyze an object. Point at the object and tap to capture.</string>
+    <string name="analyzing_object_button">Analyzing Object…</string>
+    <string name="object_analysis_success_full">I see a %1$s. The main colors are %2$s. Text found includes: %3$s.</string>
+    <string name="object_analysis_success_object_color">I see a %1$s. The main colors are %2$s.</string>
+    <string name="object_analysis_success_object_text">I see a %1$s. Text found includes: %2$s.</string>
+    <string name="object_analysis_success_object_only">I found a %1$s.</string>
+    <string name="object_analysis_no_object_details">I couldn\'t get specific details about the object. I can see these colors: %1$s. And this text: %2$s.</string>
+    <string name="object_analysis_no_object_color_only">I couldn\'t identify a specific object, but the main colors are %1$s.</string>
+    <string name="object_analysis_no_object_text_only">I couldn\'t identify a specific object, but I found this text: %1$s.</string>
+    <string name="object_analysis_nothing_clear">I couldn\'t clearly identify an object, its colors, or any text. Please try again with a clearer view.</string>
+    <string name="error_object_analysis">Sorry, I couldn\'t analyze the object due to an error.</string>
+
+    <!-- Strings from activity_main.xml -->
+    <string name="main_button_description">Main interaction button to start voice commands or capture image</string>
+    <string name="status_description">Displays the current status of the voice assistant</string>
+    <string name="voice_assistant_ready">Voice assistant is ready for your command.</string>
+    <string name="instructions_description">Displays instructions for using the app</string>
+    <string name="instructions">Tap the large button and say a command like: \'Read this\', \'Where am I?\', \'What\'s around me?\', \'Identify currency\', or \'Analyze this object\'. Tap the camera preview to capture an image.</string>
+
+</resources>
